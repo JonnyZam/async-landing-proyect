@@ -4,12 +4,15 @@
   "description": "Proyecto de prueba Asincronismo Platzi",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [
     "JavaScript",
     "Asincronismo"
   ],
   "author": "Jonathan Zamora jonathan.zamora12@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
